@@ -1,4 +1,4 @@
-package com.Vtiger_FRAMES;
+package com.crm.vtiger;
 
 public interface IAutoconstant {
 

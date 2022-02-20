@@ -1,4 +1,4 @@
-package com.project1;
+package com.PracticeTest;
 
 import java.io.FileInputStream;
 import java.util.Properties;

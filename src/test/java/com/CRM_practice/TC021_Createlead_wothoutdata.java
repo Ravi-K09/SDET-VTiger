@@ -30,6 +30,8 @@ public class TC021_Createlead_wothoutdata {
 		String text="Last Name cannot be empty";
 		Alert a1=driver.switchTo().alert();
 		String alrt = a1.getText();
+		
+		
 		System.out.println(alrt);
 		a1.accept();
 
