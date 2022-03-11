@@ -3,7 +3,7 @@
 <suite name="Suite">
 <groups>
 <run>
-<include name="regression"></include>
+<include name="Regression"></include>
 </run>
 </groups>
   <test thread-count="5" name="Test">
@@ -13,4 +13,5 @@
       <class name="com.crm_Vtiger.TC001_Createorganisation"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- Suite -->
+</suite> 
+
