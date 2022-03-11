@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class OrginfoPage {
 	WebDriver driver;
-	public OrginfoPage(WebDriver driver)
+	public  OrginfoPage(WebDriver driver)
 	{
 	this.driver=driver;
 	PageFactory.initElements(driver, this);

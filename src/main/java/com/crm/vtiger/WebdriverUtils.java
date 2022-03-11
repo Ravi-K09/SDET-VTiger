@@ -49,9 +49,9 @@ public class WebdriverUtils {
 		alt.sendKeys(Send);
 	}
 
-	public void getText(WebDriver driver) {
+	public String getText(WebDriver driver) {
 		Alert alt=driver.switchTo().alert();
-		alt.getText();
+		return alt.getText();
 	}
 
 	public void dismiss(WebDriver driver) {

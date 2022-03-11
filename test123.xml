@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parlleltest" >
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.crm_Vtiger.TC003_Createcontact"/>   
+       </classes>
+        </test>
+       <test thread-count="5" name="Test2"> 
+      <classes>
+      <class name="com.crm_Vtiger.TC002_createcustomerDD"/>  
+        </classes>
+         </test>
+          <test thread-count="5" name="Test3">
+     <classes>
+      <class name="com.crm_Vtiger.TC001_Createorganisation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm_Vtiger.TC003_Createcontact">
+        <methods>
+          <include name="teardown"/>
+          <include name="createwithoutdata_contact_test"/>
+          <include name="loginapp"/>
+          <include name="beforetest"/>
+          <include name="makeConnections"/>
+          <include name="logoutapp"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- com.crm_Vtiger.TC003_Createcontact -->
+      <class name="com.crm_Vtiger.TC001_Createorganisation">
+        <methods>
+          <include name="teardown"/>
+          <include name="create_org_test"/>
+          <include name="loginapp"/>
+          <include name="logoutapp"/>
+          <include name="makeConnections"/>
+          <include name="beforetest"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- com.crm_Vtiger.TC001_Createorganisation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
